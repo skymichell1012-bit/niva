@@ -1,0 +1,26 @@
+body {
+  font-family: 'Perisienne', cursive;
+  background: linear-gradient(to bottom, #cdefff, #e4d4ff);
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  height: 100vh;
+}
+h1 {
+  color: #5b3a99;
+  margin-bottom: 20px;
+}
+p {
+  color: #333;
+  font-size: 18px;
+}
+img {
+  border-radius: 50%;
+  margin-top: 20px;
+  animation: breathe 3s infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
